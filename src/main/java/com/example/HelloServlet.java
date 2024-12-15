@@ -6,6 +6,8 @@ import java.io.*;
 
 public class HelloServlet extends HttpServlet {
 
+    int a = 3;
+
     // Handles GET requests
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
